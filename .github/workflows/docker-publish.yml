@@ -20,7 +20,7 @@ env:
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
-  GITHUB_TOKEN:  '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'
+  GITHUB_TOKEN: ${{ secrets.GHCR_DOCKER }} 
 
 
 jobs:
